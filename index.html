@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe conosco</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #491e9c; /* Cor roxa para o título */
+      font-size: 38px; /* Aumento moderado do tamanho do título */
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .subtext {
+      color: #491e9c; /* Cor roxa para o texto pequeno */
+      font-size: 16px; /* Aumento moderado do tamanho do texto explicativo */
+      margin-top: 20px;
+      text-align: justify; /* Justifica o texto */
+      line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+      max-width: 800px; /* Definindo a largura máxima para o texto */
+      width: 100%; /* O texto ocupará a largura máxima da tela até 800px */
+      margin-left: auto;
+      margin-right: auto; /* Centraliza o texto */
+    }
+
+    .footer-logo img {
+      width: 150px; /* Ajuste o tamanho da logo */
+      height: auto;
+      margin-bottom: 20px; /* Espaço abaixo da logo */
+      display: block;
+      margin-left: auto;
+      margin-right: auto; /* Centraliza a logo */
+    }
+
+    /* Estilo para a caixa ao redor dos botões */
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .image-button {
+      cursor: pointer;
+      width: 150px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #491e9c; /* Borda roxa ao redor dos botões */
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    .image-button img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .image-button:hover {
+      transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Trabalhe conosco</h1>
+
+  <!-- Logo abaixo do título -->
+  <div class="footer-logo">
+    <img src="logo.png" alt="Logo">
+  </div>
+
+  <!-- Texto pequeno abaixo da logo -->
+  <p class="subtext">Para fazer parte do time MediQuo Brasil, basta preencher o formulário clicando em um dos botões abaixo conforme a sua área de atuação.</p>
+
+  <!-- Caixa roxa ao redor dos botões -->
+  <div class="button-container">
+    <div class="image-button" onclick="window.open('https://forms.gle/SqCs18DfouPjV7bK9', '_blank')">
+      <img src="educacaofisica.png" alt="Educacao Física">
+    </div>
+    <div class="image-button" onclick="window.open('https://forms.gle/hqLyu9NVSdK3DpG99', '_blank')">
+      <img src="medicina.png" alt="Medicina">
+    </div>
+    <div class="image-button" onclick="window.open('https://forms.gle/iTrGz7dAjo7U5d6o8', '_blank')">
+      <img src="medicinaveterinaria.png" alt="Medicina Veterinária">
+    </div>
+    <div class="image-button" onclick="window.open('https://forms.gle/5gB5KVetskvFqD9w5', '_blank')">
+      <img src="nutricao.png" alt="Nutrição">
+    </div>
+    <div class="image-button" onclick="window.open('https://forms.gle/YJKFkmMMTXmgjUV19', '_blank')">
+      <img src="psicologia.png" alt="Psicologia">
+    </div>
+    <div class="image-button" onclick="window.open('https://forms.gle/adSTAY3VECtW7KDS6', '_blank')">
+      <img src="demaisareas.png" alt="Demais Áreas">
+    </div>
+  </div>
+
+</body>
+</html>
